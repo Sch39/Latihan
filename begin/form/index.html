@@ -10,6 +10,54 @@
 <body>
   <h1>Halaman form</h1>
   <br>
+
+  <form action="">
+    <label for="username">username:</label>
+    <input type="text" id="username">
+    <br>
+    <label for="pass">password:</label>
+    <input type="password" id="pass">
+    <br>
+    <input type="radio" id="pr" name="gender">
+    <label for="pr">pria</label>
+    <input type="radio" id="wn" name="gender">
+    <label for="wn">wanita</label>
+    <br>
+    <p>Hoby</p>
+    <input type="checkbox" id="nyanyi"><label for="nyanyi">nyanyi</label>
+    <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+    <input type="checkbox" id="bola"><label for="bola">bola</label>
+    <input type="checkbox" id="gaming"><label for="gaming">gaming</label>
+    <br>
+    <!-- <input type="submit" value="kirim">  tdk disarankan, gunakan buttton -->
+    <label for="coment">comentar</label><br>
+    <textarea name="#" id="coment" cols="30" rows="10"></textarea><br>
+    <select name="#" id="lulus">
+      <option value="">tk</option>
+      <option value="">sd</option>
+      <option value="">smp</option>
+      <option value="">ma</option>
+      <option value="">smk</option>
+    </select><br>
+    <button type="submit">kirim</button>
+  </form>
+
+
+  <br><br><br><br>
+  <h2>Dari Siakad</h2>
+  <form id="form-login" name="form-login" action="#" method="post" autocomplete="off" onsubmit="submitencrypt()">
+    <label for="username2">Username</label>
+    <input type="text" id="username2" name="username2" value="" onBlur="clearPasswordField();" />
+    <br />
+    <label for="password">Password</label>
+    <input type="password" id="password" value="" />
+    <br />
+    <label> </label>
+    <input type="button" value="Login" class="button" onclick="submitencrypt()">
+    <input type="hidden" name="password" id="password2">
+    <input type="submit" value="Login" id="submit" style="visibility:hidden">
+  </form>
+  <br>
   <a href="../"><img src="../img/back.png" alt="tombol back"></a>
 </body>
 
