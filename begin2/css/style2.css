@@ -1,0 +1,21 @@
+p{
+  text-indent: 10px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+body{
+  background-color: rgb(241, 241, 218);
+  background-repeat: repeat-y;
+  background-image: url(../../begin/img/watercolor.png);
+}
+#paragraph1{
+  background-color: lightblue;
+  background-image: url(../../begin/img/gojek.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.paragraph2{
+  /* background-image: url(../../begin/img/gojek.png); */
+  background-color: lightpink;
+  
+}
