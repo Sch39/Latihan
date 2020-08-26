@@ -19,3 +19,24 @@ body{
   background-color: lightpink;
   
 }
+.p2{
+  font-style: italic;
+}
+#ln1{
+  color: aqua;
+
+}
+a{
+  font-style: italic;
+  text-transform: capitalize; 
+    /* text-decoration: none; */
+}
+ol li a{
+  color:rebeccapurple;
+}
+#paragraph1, ul li a{
+  text-shadow: red;
+  /* size: 20%; */
+  text-indent: 30px;
+  font-family: monospace;
+}
