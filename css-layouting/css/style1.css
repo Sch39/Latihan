@@ -1,0 +1,17 @@
+.header{
+  size: 300px;
+  color: rebeccapurple;
+  /* margin: auto; */
+  text-align: center;
+  background-color: khaki;
+}
+.utama{
+  background-color: rosybrown;
+  display: inline-block;
+  width: 70%;
+  height: 80px;
+  overflow: auto;
+}
+.nav{
+  white-space: pre-line;
+}
