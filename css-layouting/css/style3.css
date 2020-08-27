@@ -1,7 +1,35 @@
-.utama{
-margin: 20px;
-padding: 20px;
-border: 2px solid red;
-/* content: icon; */
-/* visibility: visible; */
+.satu{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.dua{
+  width: 100px;
+  height: 100px;
+  background-color: greenyellow;
+  /* margin-top: -250px; */
+  margin-left: -30px;
+  /* margin-top: -120px; */
+  /* margin-right: 70px; */
+  /* display: inline-block; */
+}
+.tiga{
+  width: 50px;
+  /* margin-bottom: -90px; */
+  height: 50px;
+  background-color: indigo;
+  /* margin-left: 50px; */
+  /* margin-bottom: 70px; */
+  margin-left: -50px;
+}
+.side .dua, .side .tiga{
+  display: inline-block;
+  /* margin-left: 0px; */
+}
+.side{
+  margin-top: -200px;
 }
