@@ -1,0 +1,145 @@
+/* CSS reset start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset end */
+/* style */
+body{
+  font: 16px/28px arial;
+}
+.container{
+  width: 900px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.judul{
+  font-size: 30px;
+  font-weight: bold;
+}
+.link li a{
+  text-decoration: none;
+  color: salmon;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.link li{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  /* border: 1px solid red; */
+}
+.link li a:hover{
+  background-color: skyblue;
+  color: black;
+}
+.banner{
+  margin-top: 20px;
+  width: auto;
+  height: 600px;
+  background-position-y: center;
+  background-image: url(../../begin/img/banner.jpg);
+}
+.penulis h2{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.penulis p{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.penulis p a{
+  text-decoration: none;
+  color: salmon;
+}
+.isi-article p{
+  text-indent: 15px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.utama{
+  border: 2px dashed blueviolet;
+}
+.artikel{
+  width: 500px;
+  float: left;
+  border: 1px solid red;
+}
+
+.biodata{
+  border: 2px dotted red;
+
+}
+.biodata img{
+  float: left;
+}
+.copy{
+  margin: 10px auto;
+  text-align: center;
+  background-color: #333;
+  padding: 5px;
+  color: azure;
+}
+/* teknik membersihkan float dengan micro clearfix */
+/* tinggal tambhahkan kelas cf paada elemen yang akan dibersihkan */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ .cf {
+  *zoom: 1;
+}
+/* end teknik */

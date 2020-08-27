@@ -2,10 +2,16 @@
   width: 600px;
   margin: auto;
   border: 1px solid red;
+  /* overflow: auto; */
 }
 img{
   float: left;
   margin: 5px;
+  /* overflow: auto; */
+  /* clear: left; */
+}
+.clear{
+  clear: left;
 }
 .wadah{
   width: 600px;
@@ -23,7 +29,7 @@ img{
   line-height: 80px;
   font-size: 20px;
   margin: 2px;
-  float: none;
+  float: left;
 }
 .wadah2{
   width: 600px;
@@ -50,3 +56,23 @@ img{
   background-color: tomato;
   float: left;
 }
+
+/* teknik membersihkan float dengan micro clearfix */
+/* tinggal tambhahkan kelas cf paada elemen yang akan dibersihkan */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ .cf {
+  *zoom: 1;
+}
+/* end teknik */
