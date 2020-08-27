@@ -1,0 +1,25 @@
+/* div{
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: gray;
+  padding: 30px 10px 20px;
+  /* padding-top: 30px; */
+  /* border: 5px dotted goldenrod */
+  div{
+    width: 600px;
+    /* yang biasa diatur hanya lebar content */
+    margin: 20px auto;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+  }
+  .satu{
+    background-color: grey;
+    padding: 10px 10px;
+    border: 5px solid red;
+  }
+.dua{
+  background-color: indigo;
+  padding: 30px;
+  border: 5px dotted yellowgreen;
+}
