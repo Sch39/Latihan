@@ -1,0 +1,24 @@
+.satu, .dua, .tiga{
+  width: 100px;
+  height: 100px;
+  /* display: inline-block; */
+}
+.container{
+  width: 600px;
+  border: 1px solid red;
+  margin: auto;
+  padding: 10px;
+}
+.satu{
+  background-color: salmon;
+}
+.dua{
+  background-color: limegreen;
+  float: right;
+  /* margin-left: 10px; */
+  
+}
+.tiga{
+  background-color: lightblue;
+  /* margin-left: 10px; */
+}

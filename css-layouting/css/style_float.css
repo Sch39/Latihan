@@ -1,0 +1,52 @@
+.container{
+  width: 600px;
+  margin: auto;
+  border: 1px solid red;
+}
+img{
+  float: left;
+  margin: 5px;
+}
+.wadah{
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid red;
+}
+.kotak{
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  color: wheat;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  margin: 2px;
+  float: none;
+}
+.wadah2{
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid red;
+}
+.kiri{
+  width: 150px;
+  height: 300px;
+  background-color: violet;
+  float: left;
+}
+.tengah{
+  width: 350px;
+  height: 300px;
+  background-color: yellow;
+  float: left;
+}
+.kanan{
+  width: 100px;
+  height: 300px;
+  background-color: tomato;
+  float: left;
+}
