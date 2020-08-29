@@ -1,0 +1,99 @@
+body{
+  font: 18px/32px 'Bebas Neue','arial-narrow', arial sans-serif;
+  background-color: rgb(97, 95, 95);
+}
+h1{
+  margin: 30px auto;
+  text-align: center;
+  font-size: 80px;
+  filter: drop-shadow(2px 2px 3px white);
+}
+.container{
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: lavender;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+}
+.galery li{
+  /* overflow: hidden; */
+  border: 5px solid lightseagreen;
+  float: left;
+  margin: auto 10px;
+  position: relative;
+}
+.galery li, .galery li span, .galery li .thumbnail{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.galery li span{
+  display: inline-block;
+  background-color: rgba(248, 230, 230, 0.5);
+  line-height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: brown;
+  text-shadow: 1px 1px 2px wheat;
+  font-size: 24px;
+  opacity: 0;
+  transition: 400ms;
+  transform: scale(0.3);
+}
+.galery li a:hover span{
+  opacity: 1;
+  transform: scale(1);
+
+}
+.overlay{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0);
+  z-index: 99;
+  transition: 1.5s;
+  text-align: center;
+}
+
+.overlay:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.overlay img{
+  max-height: 100%;
+  filter: drop-shadow(2px 2px 4px white);
+}
+.overlay .close{
+  position: absolute;
+  /* top: 200px; */
+  /* left: 100%; */
+  margin-left: -20px;
+  color: white;
+  text-decoration: none;
+  background-color: yellowgreen;
+  border: 2px solid black;
+}
+
+.overlay:target img{
+  animation: animasi 1s ease;
+}
+
+@keyframes animasi {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  100%{
+    transform: scale(1);
+    opacity: 100%;
+  }
+}
+

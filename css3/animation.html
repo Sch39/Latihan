@@ -6,12 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animation</title>
   <style>
+    .animasiKotak {
+      width: 100px;
+      height: 50px;
+      background-color: blueviolet;
+      /* transition: all 2500ms 500ms ease; untuk transition */
+      /* animation: animasi 3s ease infinite;  dengan shorthand*/
+      animation-name: animasi;
+      -moz-animation-duration: 3s;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+      -moz-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      /* animation-fill-mode: forwards; */
+      /* animation-play-state: running; */
+    }
 
+    /* .animasiKotak:hover {
+      width: 600px;
+      
+    } */
+
+    @keyframes animasi {
+      0% {
+        width: 100px;
+      }
+
+      25% {
+        height: 200px;
+        width: 100px;
+      }
+
+      50% {
+        width: 500px;
+        height: 200px;
+      }
+
+      100% {
+        height: 300px;
+        width: 500px;
+      }
+    }
   </style>
 </head>
 
 <body>
-
+  <div class="animasiKotak"></div>
 </body>
 
 </html>
