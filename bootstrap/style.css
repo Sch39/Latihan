@@ -1,0 +1,37 @@
+.jumbotron img{
+  filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.5));
+  width: 200px;
+  z-index: 2;
+}
+.jumbotron .bg {
+  border-radius: 50%;
+  width: 200px;
+  background-color: rgb(221, 96, 96);
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+.bg p{
+  position: absolute;
+  top: 36%;
+  left: 0;
+  font-size: 58px;
+  font-family: 'Kaushan Script', cursive;
+  transform: rotate(40deg);
+  color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.about hr{
+  width: 250px;
+  border-top: 3px solid #999;
+}
+
+.col-sm-2 div{
+  height: 100%;
+  width: 1;
+  margin: auto auto auto 50%;
+  border-left: 1.5px solid rgba(0, 0, 0, 0.3);
+}

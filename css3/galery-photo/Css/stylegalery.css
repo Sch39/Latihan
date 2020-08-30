@@ -23,7 +23,7 @@ h1{
   margin: auto 10px;
   position: relative;
 }
-.galery li, .galery li span, .galery li .thumbnail{
+.galery .lili, .galery li span, .galery li .thumbnail{
   border-radius: 50%;
   width: 150px;
   height: 150px;
